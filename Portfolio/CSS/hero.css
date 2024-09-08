@@ -1,0 +1,42 @@
+:root {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* Components */
+.hero-container {
+display: grid;
+background: whitesmoke;
+height: 50vh;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.hero-1 {
+    display: grid;
+    background: linear-gradient(180.43deg, rgba(72, 67, 67, 0.315) 
+    0%, rgba(106, 101, 101, 0.812) 100%), url(/IMAGES/Hero.jpg);
+    background-size: cover;
+    background-position-x: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px;
+    align-items: center;
+}
+
+/* Utility */
+
+.hero-heading {
+    margin-bottom: 40%;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.hero-caption {
+    margin-left: -80;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: red;
+}

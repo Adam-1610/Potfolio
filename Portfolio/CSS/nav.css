@@ -1,0 +1,29 @@
+/* Components */
+.nav-container {
+display: grid;
+background: linear-gradient(180.43deg, rgba(0,0,0,0.60) 
+0%, rgba(0,0,0,0.80) 100%);
+color: white;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* Utility */
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.fascinate-inline-regular {
+    font-family: "Fascinate Inline", system-ui;
+    font-size: large;
+    font-weight: bolder;
+    font-style: normal;
+}
+  
+

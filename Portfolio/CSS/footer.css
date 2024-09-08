@@ -1,0 +1,13 @@
+/* Components */
+.footer-container {
+    display: grid;
+    height:40vh;
+    background: linear-gradient(180.43deg, rgba(0,0,0,0.60) 
+    0%, rgba(0,0,0,0.80) 100%);
+    }
+    
+    .footer {
+        display: grid;
+        margin-left: 25%;
+        margin-right: 25%;
+    }

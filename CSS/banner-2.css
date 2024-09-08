@@ -1,0 +1,23 @@
+/* Components */
+.cta-container {
+    display: grid;
+    background: whitesmoke;
+    height: 40vh;
+    margin: 5px;
+    }
+    
+.cta {
+    display: grid;
+    background: linear-gradient(180.43deg, rgba(72, 67, 67, 0.315) 
+    0%, rgba(106, 101, 101, 0.812) 100%), 
+    url(/IMAGES/Cta.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/* Utility */
